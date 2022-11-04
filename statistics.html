@@ -1,0 +1,653 @@
+
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--  
+    Document Title
+    =============================================
+    -->
+    <title>Statistics | Yukki Music Bot</title>
+    <!--  
+    Favicons
+    =============================================
+    -->
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/images/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!--  
+    Stylesheets
+    =============================================
+    
+    -->
+    <!-- Default stylesheets-->
+    <link href="assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Template specific stylesheets-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Volkhov:400i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <link href="assets/lib/animate.css/animate.css" rel="stylesheet">
+    <link href="assets/lib/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/lib/et-line-font/et-line-font.css" rel="stylesheet">
+    <link href="assets/lib/flexslider/flexslider.css" rel="stylesheet">
+    <link href="assets/lib/owl.carousel/dist/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/lib/owl.carousel/dist/assets/owl.theme.default.min.css" rel="stylesheet">
+    <link href="assets/lib/magnific-popup/dist/magnific-popup.css" rel="stylesheet">
+    <link href="assets/lib/simple-text-rotator/simpletextrotator.css" rel="stylesheet">
+    <!-- Main stylesheet and color file-->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
+  <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Gea62xZvqmgSWhb2sn7kLM9EhiNaXEFfvwpgxtW9nmdgVc38pKLXZsqOSrZHlQrwphmH1nAMlxqtciY2wIRDmA" charset="UTF-8"></script></head>
+  <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
+    <main>
+      <div class="page-loader">
+        <div class="loader">Loading...</div>
+      </div>
+      <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="index.html">YUKKI</a>
+          </div>
+          <div class="collapse navbar-collapse" id="custom-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#totop">Home</a></li>
+              <li><a class="section-scroll" href="about.html">About</a></li>
+              <li><a class="section-scroll" href="commands.html">Commands</a></li>
+              <li><a class="section-scroll" href="https://shop.yukki.tech">Premium</a></li>
+              <li><a class="section-scroll" href="contact.html">Contact</a></li>
+              <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Shop</a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="https://shop.yukki.tech">Yukki Shop</a></li>
+                  <li><a href="https://shop.yukki.tech/?post_type=product">Yukki Premium Subscriptions</a></li>
+                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Shop Policy</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="terms.html">Terms and Conditions</a></li>
+                      <li><a href="privacy.html">Privacy Policy</a></li>
+                      <li><a href="refund.html">Refund Policy</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li><a class="fa fa-shopping-cart" style="font-size:20px;color: white" href="https://shop.yukki.tech""></a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="main">
+        <section class="module bg-dark-30 parallax-bg restaurant-menu-bg" data-background="image/stats.png">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-2 col-sm-offset-5">
+                <div class="alt-module-subtitle"><span class="holder-w"></span>
+                  <h5 class="font-serif">globally top played</h5><span class="holder-w"></span>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-8 col-sm-offset-2">
+                <h2 class="module-title font-alt mb-0">TOP 10 PLAYED ON YUKKI</h2>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="module">
+          <div class="container">
+            <div class="row multi-columns-row">
+              <div class="col-sm-6">
+                <div class="menu">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="menu-circle-channel">
+                          <img src="https://i.ytimg.com/vi/BddP6PYo2gs/hq720.jpg" alt="Channel" align="left" width="50" height="50"><h4 class="menu-title font-alt" align="left"><a href="https://www.youtube.com/watch?v=BddP6PYo2gs">Kesariya Brahmāstra Ranbir Kapoor Alia Bhatt Pritam Arijit Singh Amita</a></h4>
+                      </div>
+                      <div class="menu-detail font-serif"><br>Played 352 times</div>
+                    </div>
+                    <div class="col-sm-4 menu-price-detail">
+                      <h4 class="menu-price font-alt">#1</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="menu-circle-channel">
+                          <img src="https://i.ytimg.com/vi/_z8UyrLlM7k/hq720.jpg" alt="Channel" align="left" width="50" height="50"><h4 class="menu-title font-alt" align="left"><a href="https://www.youtube.com/watch?v=_z8UyrLlM7k">Best Of Arijit Singhs 2022 Arijit Singh Hits Songs Latest Bollywood So</a></h4>
+                      </div>
+                      <div class="menu-detail font-serif"><br>Played 271 times</div>
+                    </div>
+                    <div class="col-sm-4 menu-price-detail">
+                      <h4 class="menu-price font-alt">#2</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="menu-circle-channel">
+                          <img src="https://i.ytimg.com/vi/Umqb9KENgmk/hq720.jpg" alt="Channel" align="left" width="50" height="50"><h4 class="menu-title font-alt" align="left"><a href="https://www.youtube.com/watch?v=Umqb9KENgmk"> Tum Hi Ho Aashiqui 2 Full Song With Lyrics Aditya Roy Kapur Shraddha </a></h4>
+                      </div>
+                      <div class="menu-detail font-serif"><br>Played 263 times</div>
+                    </div>
+                    <div class="col-sm-4 menu-price-detail">
+                      <h4 class="menu-price font-alt">#3</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="menu-circle-channel">
+                          <img src="https://i.ytimg.com/vi/A66TYFdz8YA/hq720.jpg" alt="Channel" align="left" width="50" height="50"><h4 class="menu-title font-alt" align="left"><a href="https://www.youtube.com/watch?v=A66TYFdz8YA">King Tu Aake Dekhle The Carnival The Last Ride Prod By Shahbeatz Lates</a></h4>
+                      </div>
+                      <div class="menu-detail font-serif"><br>Played 248 times</div>
+                    </div>
+                    <div class="col-sm-4 menu-price-detail">
+                      <h4 class="menu-price font-alt">#4</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="menu-circle-channel">
+                          <img src="https://i.ytimg.com/vi/NkxrGBEzReQ/hq720.jpg" alt="Channel" align="left" width="50" height="50"><h4 class="menu-title font-alt" align="left"><a href="https://www.youtube.com/watch?v=NkxrGBEzReQ">Jhaanjar Video Honeymoon ਹਨ ਮ ਨ B Praak Jaani Gippy Grewal Jasmin Bhas</a></h4>
+                      </div>
+                      <div class="menu-detail font-serif"><br>Played 226 times</div>
+                    </div>
+                    <div class="col-sm-4 menu-price-detail">
+                      <h4 class="menu-price font-alt">#5</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+
+                <div class="menu">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="menu-circle-channel">
+                          <img src="https://i.ytimg.com/vi/50VNCymT-Cs/hq720.jpg" alt="Channel" align="left" width="50" height="50"><h4 class="menu-title font-alt" align="left"><a href="https://www.youtube.com/watch?v=50VNCymT-Cs">Alec Benjamin Let Me Down Slowly Official Music Video </a></h4>
+                      </div>
+                      <div class="menu-detail font-serif"><br>Played 223 times</div>
+                    </div>
+                    <div class="col-sm-4 menu-price-detail">
+                      <h4 class="menu-price font-alt">#6</h4>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="menu">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="menu-circle-channel">
+                          <img src="https://i.ytimg.com/vi/TmRgK-pXH9c/hq720.jpg" alt="Channel" align="left" width="50" height="50"><h4 class="menu-title font-alt" align="left"><a href="https://www.youtube.com/watch?v=TmRgK-pXH9c">Official Video Humnava Mere Song Jubin Nautiyal Manoj Muntashir Rocky </a></h4>
+                      </div>
+                      <div class="menu-detail font-serif"><br>Played 219 times</div>
+                    </div>
+                    <div class="col-sm-4 menu-price-detail">
+                      <h4 class="menu-price font-alt">#7</h4>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="menu">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="menu-circle-channel">
+                          <img src="https://i.ytimg.com/vi/FJ55SHCzt88/hq720.jpg" alt="Channel" align="left" width="50" height="50"><h4 class="menu-title font-alt" align="left"><a href="https://www.youtube.com/watch?v=FJ55SHCzt88">Hamdard Full Video Song Ek Villain Arijit Singh Mithoon</a></h4>
+                      </div>
+                      <div class="menu-detail font-serif"><br>Played 212 times</div>
+                    </div>
+                    <div class="col-sm-4 menu-price-detail">
+                      <h4 class="menu-price font-alt">#8</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="menu-circle-channel">
+                          <img src="https://i.ytimg.com/vi/2Vv-BfVoq4g/hqdefault.jpg" alt="Channel" align="left" width="50" height="50"><h4 class="menu-title font-alt" align="left"><a href="https://www.youtube.com/watch?v=2Vv-BfVoq4g">Ed Sheeran Perfect Official Music Video </a></h4>
+                      </div>
+                      <div class="menu-detail font-serif"><br>Played 210 times</div>
+                    </div>
+                    <div class="col-sm-4 menu-price-detail">
+                      <h4 class="menu-price font-alt">#9</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="menu-circle-channel">
+                          <img src="https://i.ytimg.com/vi/6e6Hp6R5SVU/hq720.jpg" alt="Channel" align="left" width="50" height="50"><h4 class="menu-title font-alt" align="left"><a href="https://www.youtube.com/watch?v=6e6Hp6R5SVU">छठ प ज Special उगS ह स रज द व Uga Hai Suraj Dev Anuradha Paudwal Hindi</a></h4>
+                      </div>
+                      <div class="menu-detail font-serif"><br>Played 195 times</div>
+                    </div>
+                    <div class="col-sm-4 menu-price-detail">
+                      <h4 class="menu-price font-alt">#10</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h6 align="center">Listen to them on youtube by clicking on their names</h6>
+            </div>
+          </div>
+        </section>
+        <section class="module bg-dark-30 parallax-bg restaurant-menu-bg" data-background="image/stats.png">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-2 col-sm-offset-5">
+                <div class="alt-module-subtitle"><span class="holder-w"></span>
+                  <h5 class="font-serif">globally top channels</h5><span class="holder-w"></span>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-8 col-sm-offset-2">
+                <h2 class="module-title font-alt mb-0">TOP 10 CHANNELS</h2>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="module">
+          <div class="container">
+            <div class="row multi-columns-row">
+              <div class="col-sm-6">
+
+                <div class="menu">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="menu-circle-channel">
+                          <img src="//yt3.ggpht.com/v_PwNTRdcmpaEU6zh9wytm0ERtq2BOAmBQvr1QyZstphlpcPUqjbX3wqIvSRR9bWIgSjmRUJcwE=s88-c-k-c0x00ffffff-no-rj-mo" alt="Channel" align="left" width="50" height="50"><h4 class="menu-title font-alt" align="left"><a href="https://www.youtube.com/channel/UCq-Fj5jknLsUf-MWSy4_brA">T Series</a></h4>
+                      </div>
+                      <div class="menu-detail font-serif"><br>Played 23999 times from this channel</div>
+                    </div>
+                    <div class="col-sm-4 menu-price-detail">
+                      <h4 class="menu-price font-alt">#1</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="menu-circle-channel">
+                          <img src="//yt3.ggpht.com/ytc/AMLnZu9EYN8QGFctrCOYlndFGCQ79hwL3FL8J0G2Qrku=s88-c-k-c0x00ffffff-no-rj-mo" alt="Channel" align="left" width="50" height="50"><h4 class="menu-title font-alt" align="left"><a href="https://www.youtube.com/channel/UCillMcbVTi5oVkWX6sHklmw">M Y</a></h4>
+                      </div>
+                      <div class="menu-detail font-serif"><br>Played 5549 times from this channel</div>
+                    </div>
+                    <div class="col-sm-4 menu-price-detail">
+                      <h4 class="menu-price font-alt">#2</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="menu-circle-channel">
+                          <img src="//yt3.ggpht.com/ytc/AMLnZu9EYN8QGFctrCOYlndFGCQ79hwL3FL8J0G2Qrku=s88-c-k-c0x00ffffff-no-rj-mo" alt="Channel" align="left" width="50" height="50"><h4 class="menu-title font-alt" align="left"><a href="https://www.youtube.com/channel/UCillMcbVTi5oVkWX6sHklmw">M Y</a></h4>
+                      </div>
+                      <div class="menu-detail font-serif"><br>Played 4052 times from this channel</div>
+                    </div>
+                    <div class="col-sm-4 menu-price-detail">
+                      <h4 class="menu-price font-alt">#3</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="menu-circle-channel">
+                          <img src="//yt3.ggpht.com/FB2AwicG-W2hm0QQyVLPbaqu_etmGJvOc97i-4CM2Me7wtNmrCLGJaYBsFMSAd9VSGdxb72mDg=s88-c-k-c0x00ffffff-no-rj-mo" alt="Channel" align="left" width="50" height="50"><h4 class="menu-title font-alt" align="left"><a href="https://www.youtube.com/channel/UCDrJL7JCpDbQAy2CE7gnhXg">Sony Music India </a></h4>
+                      </div>
+                      <div class="menu-detail font-serif"><br>Played 2975 times from this channel</div>
+                    </div>
+                    <div class="col-sm-4 menu-price-detail">
+                      <h4 class="menu-price font-alt">#4</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="menu-circle-channel">
+                          <img src="//yt3.ggpht.com/yajio2OZ6kBVA8ypK4XJMhzmyPBY6CYN8pyd3G1cBXSvum_ZdEDpaN0Zc35Lv7AW6-9j2-wDLA=s88-c-k-c0x00ffffff-no-rj-mo" alt="Channel" align="left" width="50" height="50"><h4 class="menu-title font-alt" align="left"><a href="https://www.youtube.com/channel/UCaxygJKZJU_obiYJC8McbPQ">Tips Official</a></h4>
+                      </div>
+                      <div class="menu-detail font-serif"><br>Played 2912 times from this channel</div>
+                    </div>
+                    <div class="col-sm-4 menu-price-detail">
+                      <h4 class="menu-price font-alt">#5</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="menu">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="menu-circle-channel">
+                          <img src="//yt3.ggpht.com/ytc/AMLnZu9lawsDtcJSdna56eHEICwqGx-k9lDOl70C-xzqgw=s88-c-k-c0x00ffffff-no-rj-mo" alt="Channel" align="left" width="50" height="50"><h4 class="menu-title font-alt" align="left"><a href="https://www.youtube.com/channel/UCzSmJl7Rcq130mRaCYPPA8Q">Yrf</a></h4>
+                      </div>
+                      <div class="menu-detail font-serif"><br>Played 2775 times from this channel</div>
+                    </div>
+                    <div class="col-sm-4 menu-price-detail">
+                      <h4 class="menu-price font-alt">#6</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="menu-circle-channel">
+                          <img src="//yt3.ggpht.com/ytc/AMLnZu_I9IH9lD0GejcBb95vRtOz8rU3owuHHiNwV80gYg=s88-c-k-c0x00ffffff-no-rj-mo" alt="Channel" align="left" width="50" height="50"><h4 class="menu-title font-alt" align="left"><a href="https://www.youtube.com/channel/UCRm96I5kmb_iGFofE5N691w">Bollywood Classics</a></h4>
+                      </div>
+                      <div class="menu-detail font-serif"><br>Played 1584 times from this channel</div>
+                    </div>
+                    <div class="col-sm-4 menu-price-detail">
+                      <h4 class="menu-price font-alt">#7</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="menu-circle-channel">
+                          <img src="//yt3.ggpht.com/ytc/AMLnZu8cQR1U9c0m3KgB-JJ_wgEZu6S2GjYdmNrZdc8TtQ=s88-c-k-c0x00ffffff-no-rj-mo" alt="Channel" align="left" width="50" height="50"><h4 class="menu-title font-alt" align="left"><a href="https://www.youtube.com/channel/UCif353F4n2IjzA_u-5Pi7Qw">Venus</a></h4>
+                      </div>
+                      <div class="menu-detail font-serif"><br>Played 1243 times from this channel</div>
+                    </div>
+                    <div class="col-sm-4 menu-price-detail">
+                      <h4 class="menu-price font-alt">#8</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="menu-circle-channel">
+                          <img src="//yt3.ggpht.com/ytc/AMLnZu_mtCk8GIOrBYw4bJwaRPOyy3-IQFy4MI-w6xZGpQ=s88-c-k-c0x00ffffff-no-rj-mo" alt="Channel" align="left" width="50" height="50"><h4 class="menu-title font-alt" align="left"><a href="https://www.youtube.com/channel/UCdtiltDmLgmkXgE1Ilo6ncA">Sam Hadzz</a></h4>
+                      </div>
+                      <div class="menu-detail font-serif"><br>Played 1223 times from this channel</div>
+                    </div>
+                    <div class="col-sm-4 menu-price-detail">
+                      <h4 class="menu-price font-alt">#9</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="menu-circle-channel">
+                          <img src="//yt3.ggpht.com/Y0YHXq8Q0p7CznN7iPm2GQ0FRzfnHQbwlBW85vrN5RIM4vi9pTnAsblvdOJS5LnARTK9Zb_iN_w=s88-c-k-c0x00ffffff-no-rj-mo" alt="Channel" align="left" width="50" height="50"><h4 class="menu-title font-alt" align="left"><a href="https://www.youtube.com/channel/UC7b2A4OTNe5es8aJoAVRDfQ">Kaanphod Music</a></h4>
+                      </div>
+                      <div class="menu-detail font-serif"><br>Played 1172 times from this channel</div>
+                    </div>
+                    <div class="col-sm-4 menu-price-detail">
+                      <h4 class="menu-price font-alt">#10</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h6 align="center">Checkout them on youtube by clicking on their names</h6>
+            </div>
+          </div>
+        </section>
+        <section class="module bg-dark-30 parallax-bg restaurant-menu-bg" data-background="image/stats.png">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-2 col-sm-offset-5">
+                <div class="alt-module-subtitle"><span class="holder-w"></span>
+                  <h5 class="font-serif">globally trending music</h5><span class="holder-w"></span>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-8 col-sm-offset-2">
+                <h2 class="module-title font-alt mb-0">top 10 trending music</h2>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="module">
+          <div class="container">
+            <div class="row multi-columns-row">
+              <div class="col-sm-6">
+                <div class="menu">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="menu-circle">
+                          <img src="https://i.ytimg.com/vi/GzU8KqOY8YA/hq720.jpg" alt="Channel" align="left" width="50" height="50"><h4 class="menu-title font-alt" align="left"><a href="https://www.youtube.com/watch?v=GzU8KqOY8YA">&nbsp;&nbsp;Dua Lipa - No Lie</a></h4>
+                      </div>
+                    </div>
+                    <div class="col-sm-4 menu-price-detail">
+                      <h4 class="menu-price font-alt">#1</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="menu-circle">
+                          <img src="https://i.ytimg.com/vi/wnJ6LuUFpMo/hq720.jpg" alt="Channel" align="left" width="50" height="50"><h4 class="menu-title font-alt" align="left"><a href="https://www.youtube.com/watch?v=wnJ6LuUFpMo">&nbsp;&nbsp;J Balvin - Mi Gente </a></h4>
+                      </div>
+                    </div>
+                    <div class="col-sm-4 menu-price-detail">
+                      <h4 class="menu-price font-alt">#2</h4> 
+                    </div>
+                  </div>
+                </div>
+                <div class="menu">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="menu-circle">
+                          <img src="https://i.ytimg.com/vi/HCjNJDNzw8Y/hq720.jpg" alt="Channel" align="left" width="50" height="50"><h4 class="menu-title font-alt" align="left"><a href="https://www.youtube.com/watch?v=HCjNJDNzw8Y">&nbsp;&nbsp;Camila Cabello - Havana </a></h4>
+                      </div>
+                    </div>
+                    <div class="col-sm-4 menu-price-detail">
+                      <h4 class="menu-price font-alt">#3</h4>  
+                    </div>
+                  </div>
+                </div>
+                <div class="menu">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="menu-circle">
+                          <img src="https://i.ytimg.com/vi/50VNCymT-Cs/hq720.jpg" alt="Channel" align="left" width="50" height="50"><h4 class="menu-title font-alt" align="left"><a href="https://www.youtube.com/watch?v=50VNCymT-Cs">&nbsp;&nbsp;Alec Benjamin - Let Me Down &nbsp;&nbsp;Slowly</a></h4>
+                      </div>
+                    </div>
+                    <div class="col-sm-4 menu-price-detail">
+                      <h4 class="menu-price font-alt">#4</h4>  
+                    </div>
+                  </div>
+                </div>
+                <div class="menu">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="menu-circle">
+                          <img src="https://i.ytimg.com/vi/L7mfjvdnPno/hq720.jpg" alt="Channel" align="left" width="50" height="50"><h4 class="menu-title font-alt" align="left"><a href="https://www.youtube.com/watch?v=L7mfjvdnPno">&nbsp;&nbsp;Trevor Daniel - Falling</a></h4>
+                      </div>
+                    </div>
+                    <div class="col-sm-4 menu-price-detail">
+                      <h4 class="menu-price font-alt">#5</h4>  
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="menu">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="menu-circle">
+                          <img src="https://i.ytimg.com/vi/F-cO2CMue4Q/hq720.jpg" alt="Channel" align="left" width="50" height="50"><h4 class="menu-title font-alt" align="left"><a href="https://www.youtube.com/watch?v=F-cO2CMue4Q">&nbsp;&nbsp;Ali Gatie - Its You </a></h4>
+                      </div>
+                    </div>
+                    <div class="col-sm-4 menu-price-detail">
+                      <h4 class="menu-price font-alt">#6</h4>  
+                    </div>
+                  </div>
+                </div>
+                <div class="menu">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="menu-circle">
+                          <img src="https://i.ytimg.com/vi/RBumgq5yVrA/hq720.jpg" alt="Channel" align="left" width="50" height="50"><h4 class="menu-title font-alt" align="left"><a href="https://www.youtube.com/watch?v=RBumgq5yVrA">&nbsp;&nbsp;Passenger - Let Her Go</a></h4>
+                      </div>
+                    </div>
+                    <div class="col-sm-4 menu-price-detail">
+                      <h4 class="menu-price font-alt">#7</h4>  
+                    </div>
+                  </div>
+                </div>
+                <div class="menu">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="menu-circle">
+                          <img src="https://i.ytimg.com/vi/m7Bc3pLyij0/hq720.jpg" alt="Channel" align="left" width="50" height="50"><h4 class="menu-title font-alt" align="left"><a href="https://www.youtube.com/watch?v=m7Bc3pLyij0">&nbsp;&nbsp;Marshmello - Happier </a></h4>
+                      </div>
+                    </div>
+                    <div class="col-sm-4 menu-price-detail">
+                      <h4 class="menu-price font-alt">#8</h4>  
+                    </div>
+                  </div>
+                </div>
+                <div class="menu">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="menu-circle">
+                          <img src="https://i.ytimg.com/vi/PT2_F-1esPk/hq720.jpg" alt="Channel" align="left" width="50" height="50"><h4 class="menu-title font-alt" align="left"><a href="https://www.youtube.com/watch?v=PT2_F-1esPk">&nbsp;&nbsp;The Chainsmokers - Closer</a></h4>
+                      </div>
+                    </div>
+                    <div class="col-sm-4 menu-price-detail">
+                      <h4 class="menu-price font-alt">#9</h4>  
+                    </div>
+                  </div>
+                </div>
+                <div class="menu">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="menu-circle">
+                          <img src="https://i.ytimg.com/vi/euCqAq6BRa4/hq720.jpg" alt="Channel" align="left" width="50" height="50"><h4 class="menu-title font-alt" align="left"><a href="https://www.youtube.com/watch?v=euCqAq6BRa4">&nbsp;&nbsp;Justin Bieber - Let Me Love You </a></h4>
+                      </div>
+                    </div>
+                    <div class="col-sm-4 menu-price-detail">
+                      <h4 class="menu-price font-alt">#10</h4>  
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h6 align="center">Listen them on youtube by clicking on their names</h6>
+            </div>
+          </div>
+        </section>
+        
+        <div class="module-small bg-dark">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-3">
+                <div class="widget">
+                  <h5 class="widget-title font-alt">About Yukki</h5>
+                  <p>A Powerful Bot by which you can stream songs, videos and even live streams in your group calls via various sources like Youtube, Spotify, Apple Music etc.</p>
+                  <p>Support : <a href="https://t.me/Yukkisupport">Yukki Support</a></p>News : <a href="https://t.me/TheYukki">Yukki News Channel</a>
+                  <p>Email:<a href="mailto:shikhar@yukki.tech"> shikhar@yukki.tech</a></p>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="widget">
+                  <h5 class="widget-title font-alt">Links</h5>
+                  <ul class="icon-list">
+                    <li><a href="https://t.me/YMBots">Bots List</a></li>
+                    <li><a href="https://t.me/YMStatus">Status Report</a></li>
+                    <li><a href="https://github.com/TeamYukki">Github</a></li>
+                    <li><a href="https://shop.yukki.tech">Premium</a></li>
+                    <li><a href="https://notreallyshikhar.gitbook.io/yukkimusicbot/about/getting-started">Documentation</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="widget">
+                  <h5 class="widget-title font-alt">Company</h5>
+                  <ul class="icon-list">
+                    <li><a href="statistics.html">Statistics</a></li>
+                    <li><a href="terms.html">Terms of Use</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="refund.html">Refund Policy</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="widget">
+                  <h5 class="widget-title font-alt">Popular Respositories</h5>
+                  <ul class="widget-posts">
+                    <li class="clearfix">
+                      <div class="widget-posts-image"><a href="https://github.com/TeamYukki/YukkiMusicBot"><img src="image/music.PNG" alt="Post Thumbnail"/></a></div>
+                      <div class="widget-posts-body">
+                        <div class="widget-posts-title"><a href="https://github.com/TeamYukki/YukkiMusicBot">Yukki Music Bot</a></div>
+                        <div class="widget-posts-meta">Github Respository</div>
+                      </div>
+                    </li>
+                    <li class="clearfix">
+                      <div class="widget-posts-image"><a href="https://github.com/TeamYukki/YukkiAFKBot"><img src="image/afk.PNG" alt="Post Thumbnail"/></a></div>
+                      <div class="widget-posts-body">
+                        <div class="widget-posts-title"><a href="https://github.com/TeamYukki/YukkiAFKBot">Yukki AFK Bot</a></div>
+                        <div class="widget-posts-meta">Github Respository</div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="divider-d">
+        <footer class="footer bg-dark">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <p class="copyright font-alt">&copy; 2022&nbsp;<a href="index.html">Yukki Music BoT</a>, All Rights Reserved</p>
+              </div>
+              <div class="col-sm-6">
+                <div class="footer-social-links"><a href="https://t.me/TheYukki"><i class="fa fa-fw">&#xF1D8;</i></a><a href="https://github.com/TeamYukki"><i class="fa fa-github"></i></a><a href="https://notreallyshikhar.gitbook.io/yukkimusicbot/about/getting-started"><i class="fa fa-fw">&#xF1C9;</i></a><a href="https://instagram.com/yukkimusicbot?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div> 
+        </footer>
+      </div>
+      <div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div>
+    </main>
+    <!--  
+    JavaScripts
+    =============================================
+    -->
+    <script src="assets/lib/jquery/dist/jquery.js"></script>
+    <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/lib/wow/dist/wow.js"></script>
+    <script src="assets/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.js"></script>
+    <script src="assets/lib/isotope/dist/isotope.pkgd.js"></script>
+    <script src="assets/lib/imagesloaded/imagesloaded.pkgd.js"></script>
+    <script src="assets/lib/flexslider/jquery.flexslider.js"></script>
+    <script src="assets/lib/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="assets/lib/smoothscroll.js"></script>
+    <script src="assets/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
+    <script src="assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
